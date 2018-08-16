@@ -1,6 +1,7 @@
 <?php
 
 namespace App;
+
 /**
  * Class Logger
  * @package App
@@ -11,6 +12,11 @@ class Logger
 
     protected $data = [];
 
+    /**
+     * Logger constructor.
+     * @param $path
+     * @param $text
+     */
     public function __construct($path, $text)
     {
         $this->path = $path;
@@ -21,11 +27,18 @@ class Logger
         $this->data[] = $text;
     }
 
+    /**
+     * @return array|bool
+     */
     public function all()
     {
         return $this->data;
     }
 
+    /**
+     * @param $uri
+     * @param $action
+     */
     public function save($uri, $action)
     {
         $log = implode(PHP_EOL, $this->data);
