@@ -1,7 +1,10 @@
 <?php
 
-namespace App\Models;
-
+namespace App;
+/**
+ * Class Logger
+ * @package App
+ */
 class Logger
 {
     protected $path;

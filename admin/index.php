@@ -33,7 +33,7 @@ try {
     $ctrl->dispatch();
 } finally {
     if (isset($errors)) {
-        $log = new \App\Models\Logger(__DIR__ . '/../log.txt', $ctrl->errors);
+        $log = new \App\Logger(__DIR__ . '/../log.txt', $ctrl->errors);
         //$log->append($error->getMessage());
         $log->save($_SERVER['REQUEST_URI'], $name);
     }

@@ -2,3 +2,7 @@
 Ошибка 404 - не найдено:( ||url: /article/?id=12 ||action: Article ||time: 2018-08-15 22:28:31
 Ошибка соединения с базой данных ||url: /index/ ||action: Index ||time: 2018-08-15 22:28:53
 Ошибка соединения с базой данных ||url: /admin/index.php ||action: Admin ||time: 2018-08-15 22:29:00
+Ошибка 404 - не найдено:( ||url: /article/?id=12 ||action: Article ||time: 2018-08-16 12:37:31
+Ошибка 404 - не найдено:( ||url: /article/?id=%D1%80%D1%80%D1%80 ||action: Article ||time: 2018-08-16 12:37:52
+Ошибка 404 - не найдено:( ||url: /article/?id=ddd ||action: Article ||time: 2018-08-16 12:38:06
+Ошибка! Заголовок должен иметь не меньше 3-х символов//Ошибка! Текст статьи должен иметь не меньше 3-х символов ||url: /admin/index.php ||action: AdminAdd ||time: 2018-08-16 12:38:42
